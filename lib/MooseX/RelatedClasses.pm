@@ -8,11 +8,9 @@
 #   The GNU Lesser General Public License, Version 2.1, February 1999
 #
 package MooseX::RelatedClasses;
-BEGIN {
-  $MooseX::RelatedClasses::AUTHORITY = 'cpan:RSRCHBOY';
-}
-# git description: 0.008-4-g0a99375
-$MooseX::RelatedClasses::VERSION = '0.009';
+our $AUTHORITY = 'cpan:RSRCHBOY';
+# git description: 0.009-2-gfc98462
+$MooseX::RelatedClasses::VERSION = '0.010';
 
 # ABSTRACT: Parameterized role for related class attributes
 
@@ -222,7 +220,7 @@ MooseX::RelatedClasses - Parameterized role for related class attributes
 
 =head1 VERSION
 
-This document describes version 0.009 of MooseX::RelatedClasses - released May 14, 2014 as part of MooseX-RelatedClasses.
+This document describes version 0.010 of MooseX::RelatedClasses - released April 10, 2015 as part of MooseX-RelatedClasses.
 
 =head1 SYNOPSIS
 
@@ -519,6 +517,8 @@ L<gittip me|https://www.gittip.com/RsrchBoy/>, or indulge my
 L<Amazon Wishlist|http://bit.ly/rsrchboys-wishlist>...  If you so desire.
 
 =head1 CONTRIBUTOR
+
+=for stopwords Kulag
 
 Kulag <g.kulag@gmail.com>
 

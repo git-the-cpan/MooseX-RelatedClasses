@@ -49,7 +49,7 @@ sub pmver {
 }
 
 eval { $v .= pmver('Class::Load','any version') };
-eval { $v .= pmver('ExtUtils::MakeMaker','6.30') };
+eval { $v .= pmver('ExtUtils::MakeMaker','any version') };
 eval { $v .= pmver('File::Spec','any version') };
 eval { $v .= pmver('Hash::Merge::Simple','any version') };
 eval { $v .= pmver('IO::Handle','any version') };
@@ -65,7 +65,6 @@ eval { $v .= pmver('MooseX::Types::LoadableClass','any version') };
 eval { $v .= pmver('MooseX::Types::Moose','any version') };
 eval { $v .= pmver('MooseX::Types::Perl','any version') };
 eval { $v .= pmver('MooseX::Util','any version') };
-eval { $v .= pmver('Smart::Comments','any version') };
 eval { $v .= pmver('String::RewritePrefix','any version') };
 eval { $v .= pmver('Test::CheckDeps','0.010') };
 eval { $v .= pmver('Test::Fatal','any version') };
